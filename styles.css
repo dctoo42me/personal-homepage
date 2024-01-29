@@ -1,0 +1,147 @@
+/* Add any additional CSS styles here */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ececec69;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* display: flex;
+    flex-direction: row;
+    justify-content:center;  */
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+nav {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+&:hover {
+    color:#6a6868;
+}
+&:active {
+    color:#fff;
+}
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+#about {
+    padding: 20px 0;
+    background-color: #ededed;
+}
+
+#about p {
+    text-align: center;
+}
+
+section {
+    margin: 30px 0;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    /* padding: 20px; */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+#back-to-top-btn {
+    display: none;
+    font-size: 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #6a686869;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 20px;
+    background-color: #4caf50;
+    transition: width 0.5s;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 0 auto; /* center the container*/
+    padding: 20px; /* Add some padding for spacing */
+}
+
+@media screen and (max-width: 600px) {
+    .main-content {
+        padding: 10px;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 16px;
+    }
+}

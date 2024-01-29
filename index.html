@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David C. - Personal Homepage</title>
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Add any additional meta tags or link to external stylesheets here -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <button id="back-to-top-btn">&#8593;</button>
+    <div class="main-content">
+    <!-- Header Section -->
+    <!-- Header Section -->
+    <header>
+        <h1>David C.</h1>
+        <!-- Navigation Section -->
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+        </nav>
+    </header>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="container">
+            <!-- <p>This section will showcase some of my projects.</p> -->
+            <!-- Add project placeholders here -->
+            <div class="slideshow-container">
+                <!-- Project Slides -->
+                <div class="mySlides">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <div class="overlay">
+                        <h3>Project 1</h3>
+                        <p>Description for Project 1 goes here.</p>
+                    </div>
+                </div>
+        
+                <div class="mySlides">
+                    <img src="images/project2.jpg" alt="Project 2">
+                    <div class="overlay">
+                        <h3>Project 2</h3>
+                        <p>Description for Project 2 goes here.</p>
+                    </div>
+                </div>
+        
+                <div class="mySlides">
+                    <img src="images/project3.jpg" alt="Project 3">
+                    <div class="overlay">
+                        <h3>Project 3</h3>
+                        <p>Description for Project 3 goes here.</p>
+                    </div>
+                </div>
+                <!-- Dot Navigation -->
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="container">
+            <img class="profile-picture" src="/images/photo.jpg" alt="David's picture'" width="150" height="150">
+            <p>
+                Hi there! I'm David, a passionate individual with a love for technology and coding. I enjoy turning ideas into
+                functional and creative solutions. Whether it's web development, programming, or problem-solving, I'm always up for
+                a challenge.
+            </p>
+            <p>Feel free to check out my <a href="link-to-your-resume.pdf" target="_blank">resume</a> to learn more about my experience and skills.</p>
+        </div>
+            <!-- Add additional about content and placeholders here -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="container">
+            <!-- HTML Skill -->
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Creating the structure of web pages.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+
+            <!-- CSS Skill -->
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Styling and designing web pages.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+
+            <!-- JavaScript Skill -->
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Adding interactivity to web pages.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+        </di v>
+        <!-- Add more skills as needed -->
+
+    </section>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 David C. All rights reserved.</p>
+        <!-- Add any additional footer content here -->
+        <div class="social-icons">
+            <!-- LinkedIn Icon -->
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            
+            <!-- Twitter Icon -->
+            <a href="https://twitter.com/your-twitter-profile" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            
+            <!-- Instagram Icon -->
+            <a href="https://www.instagram.com/your-instagram-profile" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</div>
+
+</body>
+
+</html>
